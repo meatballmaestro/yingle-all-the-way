@@ -1,0 +1,5 @@
+#+TITLE: Yingle All the Way
+
+* Concept
+* Implementation Strategy
+* References
