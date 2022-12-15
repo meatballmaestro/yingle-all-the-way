@@ -3,7 +3,8 @@
 * Concept
 * Implementation Strategy
 * References
-  - implementation
+** QEMU
+*** Implementation
     - [[https://sebastienbourdelin.com/2021/06/16/writing-a-custom-device-for-qemu/][Writing a Custom Device for QEMU]]
       - covers modifying a board to incorporate a new device
       - creates device from board initialization, rather than using
@@ -19,7 +20,7 @@
     - [[https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/861569267/QEMU+Device+Model+Development][QEMU Device Model Development]]
       - seemingly complete example
       - covers device tree, gdb, etc.
-  - official
+*** Official
     - [[https://qemu.readthedocs.io/en/latest/system/device-emulation.html][Device Emulation]]
     - [[https://www.qemu.org/2018/02/09/understanding-qemu-devices/][Understanding QEMU devices]]
     - [[https://qemu.readthedocs.io/en/latest/system/devices/usb.html][USB emulation]]
@@ -27,9 +28,11 @@
 	implementation
     - [[https://qemu.readthedocs.io/en/latest/devel/qom.html][The QEMU Object Model (QOM)]]
       - reference
-  - StackOverflow --- in-tree v. out-of-tree
+*** StackOverflow --- in-tree v. out-of-tree
     - [[https://stackoverflow.com/questions/44254790/how-to-create-out-of-tree-qemu-devices][How to create out-of-tree QEMU devices?]]
     - [[https://stackoverflow.com/questions/28315265/how-to-add-a-new-device-in-qemu-source-code][How to add a new device in QEMU source code?]]
-  - [[https://github.com/avatartwo/avatar2][avatar2]]
-    - multi-target orchestration framework
-    - focus on dynamic analysis of embedded firmware
+
+** Avatar^2
+   - [[https://github.com/avatartwo/avatar2][avatar2]]
+   - multi-target orchestration framework
+   - focus on dynamic analysis of embedded firmware
